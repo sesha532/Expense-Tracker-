@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+.expense-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.expense-form div {
+    margin-bottom: 10px;
+}
+.expense-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.expense-form input, .expense-form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.expense-form button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.expense-form button:disabled {
+    background-color: #6c757d;
+}
+.expense-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.expense-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.expense-list th, .expense-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.expense-list button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.expense-list .edit {
+    background-color: #ffc107;
+}
+.expense-list .delete {
+    background-color: #dc3545;
+    color: white;
+}
